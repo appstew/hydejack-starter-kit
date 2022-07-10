@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+}
+html{
+  background:cornflowerblue;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+  height: 100%;
+}
+
+#sub-body{
+  min-height: 95%;
+  position: relative;
+
+}
+
+#inputbox{
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: white;
+}
+
+#inputbox > div{
+  margin:10px;
+}
+
+header {
+
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  background: aliceblue;
+  margin: 0px;
+}
+
+
+
+
+
+
+main > p {
+  text-align: center;
+  background: #A9E2F3;
+  color:white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#tweetlist{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+#tweetWrapper > li {
+  width: 300px;
+  height: 150px;
+  margin: 30px;
+  background-color: white;
+  list-style: none;
+  padding: 10px;
+  overflow: auto;
+  
+
+}
+
+#inputbox{
+
+}
+
+
+#tweetWrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+}
+
+footer{
+  min-height: 5%;
+  background: white;
+}
+
+footer > p{
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
